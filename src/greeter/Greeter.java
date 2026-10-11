@@ -9,7 +9,7 @@ public class Greeter {
         System.out.print("Your birth year: ");
         int birthYear = in.nextInt();
         int age = 2026 - birthYear;
-        System.out.println("Hello, " + name + "! You are turning " + age + "this year.");
+        System.out.println("Hello, " + name + "! You are turning " + age + " this year.");
 
         if (age >= 18) {
             System.out.println("You are an adult, and you can vote.");
